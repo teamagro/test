@@ -13,11 +13,11 @@
 :root {
   /* colors */
   --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
+  --light-color: #f4f9fc;
+  --dark-color: #49566a;
   --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --link-color: #2d9fde;
+  --link-hover-color: #19b97b;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -118,6 +118,15 @@ h3 { font-size: var(--heading-font-size-l); }
 h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
+
+h2, h3 {
+  color: #1988c5
+}
+
+
+footer h2,footer h3 {
+  color: var(--light-color)
+}
 
 p,
 dl,

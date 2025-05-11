@@ -8,7 +8,9 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(73, 86, 106, 0.20) 0px 8px 40px;
+  border: none;
   background-color: var(--background-color);
 }
 
